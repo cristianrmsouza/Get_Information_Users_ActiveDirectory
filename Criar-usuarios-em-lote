@@ -1,0 +1,1 @@
+New-ADUser -SamAccountName "meu.usuario" -userPrincipalName "meu.usuario@meudominio.com.br" -Name "Meu Usuario"  -Surname Usuario -GivenName Meu -EmailAddress "meudominio@meudominio.com.br" -AccountPassword (ConvertTo-SecureString -AsPlainText "Senhapadrao" -Force) -Enabled $true -Path "OU=Usuarios,OU=Terminal,DC=meudominio,DC=com,DC=br"
