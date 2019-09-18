@@ -1,0 +1,2 @@
+ dsquery group -name "Nome-Do-Grupo" | dsget group -members -expand | dsget user -uco -display -email -expand -samid >> C:\GE\VPNok.csv  
+ 
